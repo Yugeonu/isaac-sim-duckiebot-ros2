@@ -2,7 +2,7 @@
 
 This project implements a **Duckiebot autonomous driving system** using **NVIDIA Isaac Sim** and **ROS2**. It features a full USD-based robot model, a sensor processing pipeline via OmniGraph, and a computer vision-based reactive control algorithm to track a target object (Red Cube).
 
-> **Project Report**: [Download PDF](link-to-your-pdf-if-available)  
+> **Project Report**: [Download PDF](https://drive.google.com/file/d/1RzzKWYm1z4OaMpxhDzAsRqDH5mkRHlcd/view?usp=sharing)  
 > **Author**: Geonwoo Yoo (Dept. of AI Applications)  
 > **Date**: 2025.12.15
 
@@ -56,7 +56,7 @@ The OmniGraph handles the data flow entirely within the simulator:
 # Clone the repository
 mkdir -p ~/duckie_ws/src
 cd ~/duckie_ws/src
-git clone [https://github.com/YOUR_GITHUB_ID/isaac-sim-duckiebot-ros2.git](https://github.com/YOUR_GITHUB_ID/isaac-sim-duckiebot-ros2.git)
+git clone [https://github.com/Yugeonu/isaac-sim-duckiebot-ros2.git](https://github.com/Yugeonu/isaac-sim-duckiebot-ros2.git)
 
 # Build
 cd ~/duckie_ws

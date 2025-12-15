@@ -1,3 +1,8 @@
+네, 스크린샷을 보니 코드 블록이 별도로 렌더링되면서 복사하기 불편하게 표시된 것 같습니다. **`README.md` 전체 내용을 하나의 박스 안에 처음부터 끝까지 끊김 없이** 담아드리겠습니다.
+
+오른쪽 상단의 **'Copy'** 버튼을 누르시면 전체 내용을 한 번에 복사하실 수 있습니다.
+
+````markdown
 # Isaac Sim Duckiebot Autonomous Driving Project 🤖
 
 This project implements a **Duckiebot autonomous driving system** using **NVIDIA Isaac Sim** and **ROS2**. It features a full USD-based robot model, a sensor processing pipeline via OmniGraph, and a computer vision-based reactive control algorithm to track a target object (Red Cube).
@@ -53,9 +58,39 @@ The OmniGraph handles the data flow entirely within the simulator:
 
 ### 2. Build the Package
 ```bash
+# Clone the repository
 mkdir -p ~/duckie_ws/src
 cd ~/duckie_ws/src
 git clone [https://github.com/YOUR_GITHUB_ID/isaac-sim-duckiebot-ros2.git](https://github.com/YOUR_GITHUB_ID/isaac-sim-duckiebot-ros2.git)
-cd ..
+
+# Build
+cd ~/duckie_ws
 colcon build --symlink-install
 source install/setup.bash
+````
+
+### 3\. Execution Steps
+
+1.  **Launch Isaac Sim** and open the `supervisor_ath.usd` stage.
+2.  **Press Play** in the simulator to start the Action Graph.
+3.  **Run the Autonomous Driving Node**:
+    ```bash
+    ros2 run duckie_bot tracking_node
+    ```
+4.  **Test LED Control (Optional)**:
+    ```bash
+    rosservice call /duckie/led_color "data: 'green'"
+    ```
+
+## 📊 Results
+
+  - **Simulation**: Successfully implemented the digital twin with realistic physics.
+  - **Vision**: Stable detection of the red cube under variable lighting using HSV.
+  - **Control**: Smooth tracking behavior utilizing the proportional controller.
+
+-----
+
+*This project was conducted as a final term project for the Robotics and AI course.*
+
+```
+```

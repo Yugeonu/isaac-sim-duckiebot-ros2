@@ -3,7 +3,7 @@
 This project implements a **Duckiebot autonomous driving system** using **NVIDIA Isaac Sim** and **ROS2**. It features a full USD-based robot model, a sensor processing pipeline via OmniGraph, and a computer vision-based reactive control algorithm to track a target object (Red Cube).
 
 > **Project Report**: [Download PDF](https://drive.google.com/file/d/1RzzKWYm1z4OaMpxhDzAsRqDH5mkRHlcd/view?usp=sharing)  
-> **Author**: Geonwoo Yoo (Dept. of AI Applications)  
+> **Author**: Geonwoo Yoo (Dept. of AIoT)  
 > **Date**: 2025.12.15
 
 ---

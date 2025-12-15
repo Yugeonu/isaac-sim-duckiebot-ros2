@@ -54,9 +54,10 @@ The OmniGraph handles the data flow entirely within the simulator:
 ### 2. Build the Package
 ```bash
 # Clone the repository
-mkdir -p ~/duckie_ws/src
-cd ~/duckie_ws/src
+mkdir -p ~/duckie_ws
+cd ~/duckie_ws
 git clone [https://github.com/Yugeonu/isaac-sim-duckiebot-ros2.git](https://github.com/Yugeonu/isaac-sim-duckiebot-ros2.git)
+cd ~/duckie_ws/src
 
 # Build
 cd ~/duckie_ws

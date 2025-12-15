@@ -1,8 +1,3 @@
-네, 스크린샷을 보니 코드 블록이 별도로 렌더링되면서 복사하기 불편하게 표시된 것 같습니다. **`README.md` 전체 내용을 하나의 박스 안에 처음부터 끝까지 끊김 없이** 담아드리겠습니다.
-
-오른쪽 상단의 **'Copy'** 버튼을 누르시면 전체 내용을 한 번에 복사하실 수 있습니다.
-
-````markdown
 # Isaac Sim Duckiebot Autonomous Driving Project 🤖
 
 This project implements a **Duckiebot autonomous driving system** using **NVIDIA Isaac Sim** and **ROS2**. It features a full USD-based robot model, a sensor processing pipeline via OmniGraph, and a computer vision-based reactive control algorithm to track a target object (Red Cube).
